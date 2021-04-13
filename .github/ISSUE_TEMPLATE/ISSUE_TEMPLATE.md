@@ -2,9 +2,6 @@
 name: Bug report
 about: Create a report to help us improve
 title: '[Bug] <Title Here>'
-labels: bug
-assignees: ''
-
 ---
 
 Please note that we do not provide support for clients other than Forge.
