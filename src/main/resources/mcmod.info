@@ -1,0 +1,14 @@
+[
+{
+  "modid": "dbsm",
+  "name": "Darth's Better SkyBlock Mod",
+  "description": "A QoL mod to make your Hypixel SkyBlock experience better.",
+  "version": "0.0.1",
+  "mcversion": "1.8.9",
+  "url": "https://github.com/darthvader1925/BetterSkyblockMod",
+  "updateUrl": "https://github.com/darthvader1925/BetterSkyblockMod/releases",
+  "authorList": ["darthvader1925"],
+  "credits": "teak4b for helping me!",
+  "logoFile": "logo.jpg"
+}
+]
