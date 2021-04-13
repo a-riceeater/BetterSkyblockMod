@@ -43,7 +43,7 @@ How to get a crash report:
  - OS: [e.g. Windows 10]
  - Minecraft Version: [e.g. 1.8.9]
  - Forge Version: [e.g. 11.15.1.2318]
- - BetterSkyblockMod Version: [0.0.1]
+ - Darth's BetterSkyblockMod Version: [0.0.1]
 
 **Other Mods**
 If you have any other mods installed, please list them here along with their version number.
