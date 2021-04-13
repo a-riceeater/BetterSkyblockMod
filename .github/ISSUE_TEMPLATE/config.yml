@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: BetterSkyBlockMod Support Server
+    url: https://discord.gg/75BuRfHzM4
+    about: The discord server to ask for support and chat.
+  - name: GitHub Security Bug Bounty
+    url: https://github.com/darthvader1925/BetterSkyblockMod/issues
+    about: Create an issue here. Please make sure that your issue has not been already reported.
