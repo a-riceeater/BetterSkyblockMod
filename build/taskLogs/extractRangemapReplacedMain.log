@@ -1,0 +1,15 @@
+Symbol range map extraction starting
+Processing 13 files
+processing com\darthvader\dbsm\Dbsm.java
+processing com\darthvader\dbsm\commands\DungeonHubCommand.java
+processing com\darthvader\dbsm\commands\HelpCommand.java
+processing com\darthvader\dbsm\commands\MoveCommand.java
+processing com\darthvader\dbsm\commands\ToggleCommand.java
+processing com\darthvader\dbsm\commands\WarpCommand.java
+processing com\darthvader\dbsm\features\AbilityTimer.java
+processing com\darthvader\dbsm\features\CopyFail.java
+processing com\darthvader\dbsm\features\HideMessages.java
+processing com\darthvader\dbsm\proxy\ClientProxy.java
+processing com\darthvader\dbsm\proxy\CommonProxy.java
+processing com\darthvader\dbsm\utils\Reference.java
+processing com\darthvader\dbsm\utils\utils.java

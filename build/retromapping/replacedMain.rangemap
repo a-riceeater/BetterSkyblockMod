@@ -1,0 +1,641 @@
+Symbol range map extraction starting
+Processing 13 files
+processing com\darthvader\dbsm\Dbsm.java
+@|com\darthvader\dbsm\Dbsm.java|8|27|com.darthvader.dbsm|package|com.darthvader.dbsm|(file)
+Class Start: com.darthvader.dbsm.Dbsm
+   @|com\darthvader\dbsm\Dbsm.java|847|851|Dbsm|class|com.darthvader.dbsm.Dbsm
+   @|com\darthvader\dbsm\Dbsm.java|852|860|instance|field|com.darthvader.dbsm.Dbsm|instance|
+   @|com\darthvader\dbsm\Dbsm.java|1013|1024|CommonProxy|class|com.darthvader.dbsm.proxy.CommonProxy
+   @|com\darthvader\dbsm\Dbsm.java|1025|1030|proxy|field|com.darthvader.dbsm.Dbsm|proxy|
+   Method Start: PreInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com\darthvader\dbsm\Dbsm.java|1067|1074|PreInit|method|com.darthvader.dbsm.Dbsm|PreInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com\darthvader\dbsm\Dbsm.java|1075|1100|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+      @|com\darthvader\dbsm\Dbsm.java|1101|1102|e|param|com.darthvader.dbsm.Dbsm|PreInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|e|0
+      @|com\darthvader\dbsm\Dbsm.java|1114|1120|System|class|java.lang.System
+      @|com\darthvader\dbsm\Dbsm.java|1121|1124|out|field|java.lang.System|out
+      @|com\darthvader\dbsm\Dbsm.java|1125|1132|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|com\darthvader\dbsm\Dbsm.java|1159|1179|ClientCommandHandler|class|net.minecraftforge.client.ClientCommandHandler
+      @|com\darthvader\dbsm\Dbsm.java|1180|1188|instance|field|net.minecraftforge.client.ClientCommandHandler|instance
+      @|com\darthvader\dbsm\Dbsm.java|1189|1204|registerCommand|method|net.minecraft.command.CommandHandler|registerCommand|(Lnet/minecraft/command/ICommand;)Lnet/minecraft/command/ICommand;
+      @|com\darthvader\dbsm\Dbsm.java|1209|1220|WarpCommand|class|com.darthvader.dbsm.commands.WarpCommand
+      @|com\darthvader\dbsm\Dbsm.java|1233|1253|ClientCommandHandler|class|net.minecraftforge.client.ClientCommandHandler
+      @|com\darthvader\dbsm\Dbsm.java|1254|1262|instance|field|net.minecraftforge.client.ClientCommandHandler|instance
+      @|com\darthvader\dbsm\Dbsm.java|1263|1278|registerCommand|method|net.minecraft.command.CommandHandler|registerCommand|(Lnet/minecraft/command/ICommand;)Lnet/minecraft/command/ICommand;
+      @|com\darthvader\dbsm\Dbsm.java|1283|1300|DungeonHubCommand|class|com.darthvader.dbsm.commands.DungeonHubCommand
+   Method End: PreInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\darthvader\dbsm\Dbsm.java|1346|1350|init|method|com.darthvader.dbsm.Dbsm|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\darthvader\dbsm\Dbsm.java|1351|1373|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+      @|com\darthvader\dbsm\Dbsm.java|1374|1375|e|param|com.darthvader.dbsm.Dbsm|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|e|0
+      @|com\darthvader\dbsm\Dbsm.java|1387|1401|MinecraftForge|class|net.minecraftforge.common.MinecraftForge
+      @|com\darthvader\dbsm\Dbsm.java|1402|1411|EVENT_BUS|field|net.minecraftforge.common.MinecraftForge|EVENT_BUS
+      @|com\darthvader\dbsm\Dbsm.java|1412|1420|register|method|net.minecraftforge.fml.common.eventhandler.EventBus|register|(Ljava/lang/Object;)V
+      @|com\darthvader\dbsm\Dbsm.java|1436|1450|MinecraftForge|class|net.minecraftforge.common.MinecraftForge
+      @|com\darthvader\dbsm\Dbsm.java|1451|1460|EVENT_BUS|field|net.minecraftforge.common.MinecraftForge|EVENT_BUS
+      @|com\darthvader\dbsm\Dbsm.java|1461|1469|register|method|net.minecraftforge.fml.common.eventhandler.EventBus|register|(Ljava/lang/Object;)V
+      @|com\darthvader\dbsm\Dbsm.java|1474|1482|CopyFail|class|com.darthvader.dbsm.features.CopyFail
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: PostInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com\darthvader\dbsm\Dbsm.java|1528|1536|PostInit|method|com.darthvader.dbsm.Dbsm|PostInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com\darthvader\dbsm\Dbsm.java|1537|1562|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+      @|com\darthvader\dbsm\Dbsm.java|1563|1564|e|param|com.darthvader.dbsm.Dbsm|PostInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|e|0
+   Method End: PostInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+Class End  : com.darthvader.dbsm.Dbsm
+endProcessing com\darthvader\dbsm\Dbsm.java
+
+processing com\darthvader\dbsm\commands\DungeonHubCommand.java
+@|com\darthvader\dbsm\commands\DungeonHubCommand.java|8|36|com.darthvader.dbsm.commands|package|com.darthvader.dbsm.commands|(file)
+Class Start: com.darthvader.dbsm.commands.DungeonHubCommand
+   Method Start: getCommandName()Ljava/lang/String;
+      @|com\darthvader\dbsm\commands\DungeonHubCommand.java|497|511|getCommandName|method|net.minecraft.command.ICommand|getCommandName|()Ljava/lang/String;
+      @|com\darthvader\dbsm\commands\DungeonHubCommand.java|490|496|String|class|java.lang.String
+   Method End: getCommandName()Ljava/lang/String;
+   Method Start: getCommandUsage(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+      @|com\darthvader\dbsm\commands\DungeonHubCommand.java|577|592|getCommandUsage|method|net.minecraft.command.ICommand|getCommandUsage|(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+      @|com\darthvader\dbsm\commands\DungeonHubCommand.java|570|576|String|class|java.lang.String
+      @|com\darthvader\dbsm\commands\DungeonHubCommand.java|593|607|ICommandSender|class|net.minecraft.command.ICommandSender
+      @|com\darthvader\dbsm\commands\DungeonHubCommand.java|608|612|arg0|param|com.darthvader.dbsm.commands.DungeonHubCommand|getCommandUsage|(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;|arg0|0
+      @|com\darthvader\dbsm\commands\DungeonHubCommand.java|637|651|getCommandName|method|net.minecraft.command.ICommand|getCommandName|()Ljava/lang/String;
+   Method End: getCommandUsage(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+   Method Start: getRequiredPermissionLevel()I
+      @|com\darthvader\dbsm\commands\DungeonHubCommand.java|691|717|getRequiredPermissionLevel|method|net.minecraft.command.CommandBase|getRequiredPermissionLevel|()I
+   Method End: getRequiredPermissionLevel()I
+   Method Start: processCommand(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+      @|com\darthvader\dbsm\commands\DungeonHubCommand.java|777|791|processCommand|method|net.minecraft.command.ICommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+      @|com\darthvader\dbsm\commands\DungeonHubCommand.java|835|851|CommandException|class|net.minecraft.command.CommandException
+      @|com\darthvader\dbsm\commands\DungeonHubCommand.java|792|806|ICommandSender|class|net.minecraft.command.ICommandSender
+      @|com\darthvader\dbsm\commands\DungeonHubCommand.java|807|811|arg0|param|com.darthvader.dbsm.commands.DungeonHubCommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|arg0|0
+      @|com\darthvader\dbsm\commands\DungeonHubCommand.java|813|819|String|class|java.lang.String
+      @|com\darthvader\dbsm\commands\DungeonHubCommand.java|822|826|args|param|com.darthvader.dbsm.commands.DungeonHubCommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+      @|com\darthvader\dbsm\commands\DungeonHubCommand.java|868|880|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+      @|com\darthvader\dbsm\commands\DungeonHubCommand.java|891|903|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+      @|com\darthvader\dbsm\commands\DungeonHubCommand.java|905|909|arg0|param|com.darthvader.dbsm.commands.DungeonHubCommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|arg0|0
+      @|com\darthvader\dbsm\commands\DungeonHubCommand.java|919|928|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\darthvader\dbsm\commands\DungeonHubCommand.java|929|941|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|com\darthvader\dbsm\commands\DungeonHubCommand.java|944|953|thePlayer|field|net.minecraft.client.Minecraft|thePlayer
+      @|com\darthvader\dbsm\commands\DungeonHubCommand.java|954|969|sendChatMessage|method|net.minecraft.client.entity.EntityPlayerSP|sendChatMessage|(Ljava/lang/String;)V
+      @|com\darthvader\dbsm\commands\DungeonHubCommand.java|1007|1021|addChatMessage|method|net.minecraft.command.ICommandSender|addChatMessage|(Lnet/minecraft/util/IChatComponent;)V
+      @|com\darthvader\dbsm\commands\DungeonHubCommand.java|1026|1043|ChatComponentText|class|net.minecraft.util.ChatComponentText
+      @|com\darthvader\dbsm\commands\DungeonHubCommand.java|1044|1062|EnumChatFormatting|class|net.minecraft.util.EnumChatFormatting
+      @|com\darthvader\dbsm\commands\DungeonHubCommand.java|1063|1067|BLUE|field|net.minecraft.util.EnumChatFormatting|BLUE
+      @|com\darthvader\dbsm\commands\DungeonHubCommand.java|1080|1098|EnumChatFormatting|class|net.minecraft.util.EnumChatFormatting
+      @|com\darthvader\dbsm\commands\DungeonHubCommand.java|1099|1103|GOLD|field|net.minecraft.util.EnumChatFormatting|GOLD
+   Method End: processCommand(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+Class End  : com.darthvader.dbsm.commands.DungeonHubCommand
+endProcessing com\darthvader\dbsm\commands\DungeonHubCommand.java
+
+processing com\darthvader\dbsm\commands\HelpCommand.java
+@|com\darthvader\dbsm\commands\HelpCommand.java|8|36|com.darthvader.dbsm.commands|package|com.darthvader.dbsm.commands|(file)
+Class Start: com.darthvader.dbsm.commands.HelpCommand
+   Method Start: getCommandName()Ljava/lang/String;
+      @|com\darthvader\dbsm\commands\HelpCommand.java|253|267|getCommandName|method|net.minecraft.command.ICommand|getCommandName|()Ljava/lang/String;
+      @|com\darthvader\dbsm\commands\HelpCommand.java|246|252|String|class|java.lang.String
+   Method End: getCommandName()Ljava/lang/String;
+   Method Start: getCommandUsage(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+      @|com\darthvader\dbsm\commands\HelpCommand.java|338|353|getCommandUsage|method|net.minecraft.command.ICommand|getCommandUsage|(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+      @|com\darthvader\dbsm\commands\HelpCommand.java|331|337|String|class|java.lang.String
+      @|com\darthvader\dbsm\commands\HelpCommand.java|354|368|ICommandSender|class|net.minecraft.command.ICommandSender
+      @|com\darthvader\dbsm\commands\HelpCommand.java|369|375|sender|param|com.darthvader.dbsm.commands.HelpCommand|getCommandUsage|(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;|sender|0
+   Method End: getCommandUsage(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+   Method Start: processCommand(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+      @|com\darthvader\dbsm\commands\HelpCommand.java|437|451|processCommand|method|net.minecraft.command.ICommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+      @|com\darthvader\dbsm\commands\HelpCommand.java|497|513|CommandException|class|net.minecraft.command.CommandException
+      @|com\darthvader\dbsm\commands\HelpCommand.java|452|466|ICommandSender|class|net.minecraft.command.ICommandSender
+      @|com\darthvader\dbsm\commands\HelpCommand.java|467|473|sender|param|com.darthvader.dbsm.commands.HelpCommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+      @|com\darthvader\dbsm\commands\HelpCommand.java|475|481|String|class|java.lang.String
+      @|com\darthvader\dbsm\commands\HelpCommand.java|484|488|args|param|com.darthvader.dbsm.commands.HelpCommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+   Method End: processCommand(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+Class End  : com.darthvader.dbsm.commands.HelpCommand
+endProcessing com\darthvader\dbsm\commands\HelpCommand.java
+
+processing com\darthvader\dbsm\commands\MoveCommand.java
+@|com\darthvader\dbsm\commands\MoveCommand.java|8|36|com.darthvader.dbsm.commands|package|com.darthvader.dbsm.commands|(file)
+Class Start: com.darthvader.dbsm.commands.MoveCommand
+   @|com\darthvader\dbsm\commands\MoveCommand.java|306|320|bonzoMaskTimer|field|com.darthvader.dbsm.commands.MoveCommand|bonzoMaskTimer|
+   Method Start: getCommandName()Ljava/lang/String;
+      @|com\darthvader\dbsm\commands\MoveCommand.java|364|378|getCommandName|method|net.minecraft.command.ICommand|getCommandName|()Ljava/lang/String;
+      @|com\darthvader\dbsm\commands\MoveCommand.java|357|363|String|class|java.lang.String
+   Method End: getCommandName()Ljava/lang/String;
+   Method Start: getCommandUsage(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+      @|com\darthvader\dbsm\commands\MoveCommand.java|445|460|getCommandUsage|method|net.minecraft.command.ICommand|getCommandUsage|(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+      @|com\darthvader\dbsm\commands\MoveCommand.java|438|444|String|class|java.lang.String
+      @|com\darthvader\dbsm\commands\MoveCommand.java|461|475|ICommandSender|class|net.minecraft.command.ICommandSender
+      @|com\darthvader\dbsm\commands\MoveCommand.java|476|480|arg0|param|com.darthvader.dbsm.commands.MoveCommand|getCommandUsage|(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;|arg0|0
+      @|com\darthvader\dbsm\commands\MoveCommand.java|505|519|getCommandName|method|net.minecraft.command.ICommand|getCommandName|()Ljava/lang/String;
+   Method End: getCommandUsage(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+   Method Start: usage(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+      @|com\darthvader\dbsm\commands\MoveCommand.java|615|620|usage|method|com.darthvader.dbsm.commands.MoveCommand|usage|(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+      @|com\darthvader\dbsm\commands\MoveCommand.java|608|614|String|class|java.lang.String
+      @|com\darthvader\dbsm\commands\MoveCommand.java|621|635|ICommandSender|class|net.minecraft.command.ICommandSender
+      @|com\darthvader\dbsm\commands\MoveCommand.java|636|640|arg0|param|com.darthvader.dbsm.commands.MoveCommand|usage|(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;|arg0|0
+      @|com\darthvader\dbsm\commands\MoveCommand.java|663|674|MoveCommand|class|com.darthvader.dbsm.commands.MoveCommand
+      @|com\darthvader\dbsm\commands\MoveCommand.java|677|692|getCommandUsage|method|net.minecraft.command.ICommand|getCommandUsage|(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+      @|com\darthvader\dbsm\commands\MoveCommand.java|693|697|arg0|param|com.darthvader.dbsm.commands.MoveCommand|usage|(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;|arg0|0
+   Method End: usage(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+   Method Start: getRequiredPermissionLevel()I
+      @|com\darthvader\dbsm\commands\MoveCommand.java|736|762|getRequiredPermissionLevel|method|net.minecraft.command.CommandBase|getRequiredPermissionLevel|()I
+   Method End: getRequiredPermissionLevel()I
+   Method Start: addTabCompletionOptions(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/BlockPos;)Ljava/util/List;
+      @|com\darthvader\dbsm\commands\MoveCommand.java|830|853|addTabCompletionOptions|method|net.minecraft.command.ICommand|addTabCompletionOptions|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/BlockPos;)Ljava/util/List;
+      @|com\darthvader\dbsm\commands\MoveCommand.java|822|828|String|class|java.lang.String
+      @|com\darthvader\dbsm\commands\MoveCommand.java|817|821|List|class|java.util.List
+      @|com\darthvader\dbsm\commands\MoveCommand.java|854|868|ICommandSender|class|net.minecraft.command.ICommandSender
+      @|com\darthvader\dbsm\commands\MoveCommand.java|869|875|sender|param|com.darthvader.dbsm.commands.MoveCommand|addTabCompletionOptions|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/BlockPos;)Ljava/util/List;|sender|0
+      @|com\darthvader\dbsm\commands\MoveCommand.java|877|883|String|class|java.lang.String
+      @|com\darthvader\dbsm\commands\MoveCommand.java|886|890|args|param|com.darthvader.dbsm.commands.MoveCommand|addTabCompletionOptions|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/BlockPos;)Ljava/util/List;|args|1
+      @|com\darthvader\dbsm\commands\MoveCommand.java|892|900|BlockPos|class|net.minecraft.util.BlockPos
+      @|com\darthvader\dbsm\commands\MoveCommand.java|901|904|pos|param|com.darthvader.dbsm.commands.MoveCommand|addTabCompletionOptions|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/BlockPos;)Ljava/util/List;|pos|2
+      @|com\darthvader\dbsm\commands\MoveCommand.java|920|924|args|param|com.darthvader.dbsm.commands.MoveCommand|addTabCompletionOptions|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/BlockPos;)Ljava/util/List;|args|1
+      Field: Array Length, skipping
+      @|com\darthvader\dbsm\commands\MoveCommand.java|959|991|getListOfStringsMatchingLastWord|method|net.minecraft.command.CommandBase|getListOfStringsMatchingLastWord|([Ljava/lang/String;[Ljava/lang/String;)Ljava/util/List;
+      @|com\darthvader\dbsm\commands\MoveCommand.java|992|996|args|param|com.darthvader.dbsm.commands.MoveCommand|addTabCompletionOptions|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/BlockPos;)Ljava/util/List;|args|1
+   Method End: addTabCompletionOptions(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/BlockPos;)Ljava/util/List;
+   Method Start: processCommand(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+      @|com\darthvader\dbsm\commands\MoveCommand.java|1121|1135|processCommand|method|net.minecraft.command.ICommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+      @|com\darthvader\dbsm\commands\MoveCommand.java|1181|1197|CommandException|class|net.minecraft.command.CommandException
+      @|com\darthvader\dbsm\commands\MoveCommand.java|1136|1150|ICommandSender|class|net.minecraft.command.ICommandSender
+      @|com\darthvader\dbsm\commands\MoveCommand.java|1151|1157|sender|param|com.darthvader.dbsm.commands.MoveCommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+      @|com\darthvader\dbsm\commands\MoveCommand.java|1159|1165|String|class|java.lang.String
+      @|com\darthvader\dbsm\commands\MoveCommand.java|1168|1172|args|param|com.darthvader.dbsm.commands.MoveCommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+   Method End: processCommand(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+Class End  : com.darthvader.dbsm.commands.MoveCommand
+endProcessing com\darthvader\dbsm\commands\MoveCommand.java
+
+processing com\darthvader\dbsm\commands\ToggleCommand.java
+@|com\darthvader\dbsm\commands\ToggleCommand.java|8|36|com.darthvader.dbsm.commands|package|com.darthvader.dbsm.commands|(file)
+Class Start: com.darthvader.dbsm.commands.ToggleCommand
+   @|com\darthvader\dbsm\commands\ToggleCommand.java|544|556|spirtSceptre|field|com.darthvader.dbsm.commands.ToggleCommand|spirtSceptre|
+   @|com\darthvader\dbsm\commands\ToggleCommand.java|584|594|midasStaff|field|com.darthvader.dbsm.commands.ToggleCommand|midasStaff|
+   @|com\darthvader\dbsm\commands\ToggleCommand.java|622|634|healMessages|field|com.darthvader.dbsm.commands.ToggleCommand|healMessages|
+   @|com\darthvader\dbsm\commands\ToggleCommand.java|662|678|cooldownMessages|field|com.darthvader.dbsm.commands.ToggleCommand|cooldownMessages|
+   @|com\darthvader\dbsm\commands\ToggleCommand.java|706|719|notEnoughMana|field|com.darthvader.dbsm.commands.ToggleCommand|notEnoughMana|
+   @|com\darthvader\dbsm\commands\ToggleCommand.java|747|756|implosion|field|com.darthvader.dbsm.commands.ToggleCommand|implosion|
+   @|com\darthvader\dbsm\commands\ToggleCommand.java|784|793|killCombo|field|com.darthvader.dbsm.commands.ToggleCommand|killCombo|
+   @|com\darthvader\dbsm\commands\ToggleCommand.java|821|836|clickingTooFast|field|com.darthvader.dbsm.commands.ToggleCommand|clickingTooFast|
+   @|com\darthvader\dbsm\commands\ToggleCommand.java|864|878|openingTooFast|field|com.darthvader.dbsm.commands.ToggleCommand|openingTooFast|
+   @|com\darthvader\dbsm\commands\ToggleCommand.java|906|922|miningSpeedBoost|field|com.darthvader.dbsm.commands.ToggleCommand|miningSpeedBoost|
+   @|com\darthvader\dbsm\commands\ToggleCommand.java|950|970|itemDisabledMessages|field|com.darthvader.dbsm.commands.ToggleCommand|itemDisabledMessages|
+   @|com\darthvader\dbsm\commands\ToggleCommand.java|998|1011|AbilityTimers|field|com.darthvader.dbsm.commands.ToggleCommand|AbilityTimers|
+   @|com\darthvader\dbsm\commands\ToggleCommand.java|1039|1055|copyFailMessages|field|com.darthvader.dbsm.commands.ToggleCommand|copyFailMessages|
+   Method Start: getCommandName()Ljava/lang/String;
+      @|com\darthvader\dbsm\commands\ToggleCommand.java|1090|1104|getCommandName|method|net.minecraft.command.ICommand|getCommandName|()Ljava/lang/String;
+      @|com\darthvader\dbsm\commands\ToggleCommand.java|1083|1089|String|class|java.lang.String
+   Method End: getCommandName()Ljava/lang/String;
+   Method Start: getCommandUsage(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+      @|com\darthvader\dbsm\commands\ToggleCommand.java|1174|1189|getCommandUsage|method|net.minecraft.command.ICommand|getCommandUsage|(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+      @|com\darthvader\dbsm\commands\ToggleCommand.java|1167|1173|String|class|java.lang.String
+      @|com\darthvader\dbsm\commands\ToggleCommand.java|1190|1204|ICommandSender|class|net.minecraft.command.ICommandSender
+      @|com\darthvader\dbsm\commands\ToggleCommand.java|1205|1211|sender|param|com.darthvader.dbsm.commands.ToggleCommand|getCommandUsage|(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;|sender|0
+      @|com\darthvader\dbsm\commands\ToggleCommand.java|1236|1250|getCommandName|method|net.minecraft.command.ICommand|getCommandName|()Ljava/lang/String;
+   Method End: getCommandUsage(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+   Method Start: usage(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+      @|com\darthvader\dbsm\commands\ToggleCommand.java|1465|1470|usage|method|com.darthvader.dbsm.commands.ToggleCommand|usage|(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+      @|com\darthvader\dbsm\commands\ToggleCommand.java|1458|1464|String|class|java.lang.String
+      @|com\darthvader\dbsm\commands\ToggleCommand.java|1471|1485|ICommandSender|class|net.minecraft.command.ICommandSender
+      @|com\darthvader\dbsm\commands\ToggleCommand.java|1486|1490|arg0|param|com.darthvader.dbsm.commands.ToggleCommand|usage|(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;|arg0|0
+      @|com\darthvader\dbsm\commands\ToggleCommand.java|1513|1526|ToggleCommand|class|com.darthvader.dbsm.commands.ToggleCommand
+      @|com\darthvader\dbsm\commands\ToggleCommand.java|1529|1544|getCommandUsage|method|net.minecraft.command.ICommand|getCommandUsage|(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+      @|com\darthvader\dbsm\commands\ToggleCommand.java|1545|1549|arg0|param|com.darthvader.dbsm.commands.ToggleCommand|usage|(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;|arg0|0
+   Method End: usage(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+   Method Start: getRequiredPermissionLevel()I
+      @|com\darthvader\dbsm\commands\ToggleCommand.java|1587|1613|getRequiredPermissionLevel|method|net.minecraft.command.CommandBase|getRequiredPermissionLevel|()I
+   Method End: getRequiredPermissionLevel()I
+   Method Start: addTabCompletionOptions(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/BlockPos;)Ljava/util/List;
+      @|com\darthvader\dbsm\commands\ToggleCommand.java|1680|1703|addTabCompletionOptions|method|net.minecraft.command.ICommand|addTabCompletionOptions|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/BlockPos;)Ljava/util/List;
+      @|com\darthvader\dbsm\commands\ToggleCommand.java|1672|1678|String|class|java.lang.String
+      @|com\darthvader\dbsm\commands\ToggleCommand.java|1667|1671|List|class|java.util.List
+      @|com\darthvader\dbsm\commands\ToggleCommand.java|1704|1718|ICommandSender|class|net.minecraft.command.ICommandSender
+      @|com\darthvader\dbsm\commands\ToggleCommand.java|1719|1725|sender|param|com.darthvader.dbsm.commands.ToggleCommand|addTabCompletionOptions|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/BlockPos;)Ljava/util/List;|sender|0
+      @|com\darthvader\dbsm\commands\ToggleCommand.java|1727|1733|String|class|java.lang.String
+      @|com\darthvader\dbsm\commands\ToggleCommand.java|1736|1740|args|param|com.darthvader.dbsm.commands.ToggleCommand|addTabCompletionOptions|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/BlockPos;)Ljava/util/List;|args|1
+      @|com\darthvader\dbsm\commands\ToggleCommand.java|1742|1750|BlockPos|class|net.minecraft.util.BlockPos
+      @|com\darthvader\dbsm\commands\ToggleCommand.java|1751|1754|pos|param|com.darthvader.dbsm.commands.ToggleCommand|addTabCompletionOptions|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/BlockPos;)Ljava/util/List;|pos|2
+      @|com\darthvader\dbsm\commands\ToggleCommand.java|1770|1774|args|param|com.darthvader.dbsm.commands.ToggleCommand|addTabCompletionOptions|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/BlockPos;)Ljava/util/List;|args|1
+      Field: Array Length, skipping
+      @|com\darthvader\dbsm\commands\ToggleCommand.java|1809|1841|getListOfStringsMatchingLastWord|method|net.minecraft.command.CommandBase|getListOfStringsMatchingLastWord|([Ljava/lang/String;[Ljava/lang/String;)Ljava/util/List;
+      @|com\darthvader\dbsm\commands\ToggleCommand.java|1842|1846|args|param|com.darthvader.dbsm.commands.ToggleCommand|addTabCompletionOptions|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/BlockPos;)Ljava/util/List;|args|1
+   Method End: addTabCompletionOptions(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/BlockPos;)Ljava/util/List;
+   Method Start: processCommand(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+      @|com\darthvader\dbsm\commands\ToggleCommand.java|2148|2162|processCommand|method|net.minecraft.command.ICommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+      @|com\darthvader\dbsm\commands\ToggleCommand.java|2206|2222|CommandException|class|net.minecraft.command.CommandException
+      @|com\darthvader\dbsm\commands\ToggleCommand.java|2163|2177|ICommandSender|class|net.minecraft.command.ICommandSender
+      @|com\darthvader\dbsm\commands\ToggleCommand.java|2178|2182|arg0|param|com.darthvader.dbsm.commands.ToggleCommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|arg0|0
+      @|com\darthvader\dbsm\commands\ToggleCommand.java|2184|2190|String|class|java.lang.String
+      @|com\darthvader\dbsm\commands\ToggleCommand.java|2193|2197|arg1|param|com.darthvader.dbsm.commands.ToggleCommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|arg1|1
+      @|com\darthvader\dbsm\commands\ToggleCommand.java|2239|2251|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+      @|com\darthvader\dbsm\commands\ToggleCommand.java|2262|2274|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+      @|com\darthvader\dbsm\commands\ToggleCommand.java|2275|2279|arg0|param|com.darthvader.dbsm.commands.ToggleCommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|arg0|0
+      @|com\darthvader\dbsm\commands\ToggleCommand.java|2293|2297|arg1|param|com.darthvader.dbsm.commands.ToggleCommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|arg1|1
+      Field: Array Length, skipping
+      @|com\darthvader\dbsm\commands\ToggleCommand.java|2332|2346|addChatMessage|method|net.minecraft.command.ICommandSender|addChatMessage|(Lnet/minecraft/util/IChatComponent;)V
+      @|com\darthvader\dbsm\commands\ToggleCommand.java|2351|2368|ChatComponentText|class|net.minecraft.util.ChatComponentText
+      @|com\darthvader\dbsm\commands\ToggleCommand.java|2383|2398|getCommandUsage|method|net.minecraft.command.ICommand|getCommandUsage|(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+      @|com\darthvader\dbsm\commands\ToggleCommand.java|2399|2403|arg0|param|com.darthvader.dbsm.commands.ToggleCommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|arg0|0
+      @|com\darthvader\dbsm\commands\ToggleCommand.java|2450|2454|arg1|param|com.darthvader.dbsm.commands.ToggleCommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|arg1|1
+      @|com\darthvader\dbsm\commands\ToggleCommand.java|2458|2469|toLowerCase|method|java.lang.String|toLowerCase|()Ljava/lang/String;
+      @|com\darthvader\dbsm\commands\ToggleCommand.java|2472|2480|contains|method|java.lang.String|contains|(Ljava/lang/CharSequence;)Z
+      @|com\darthvader\dbsm\commands\ToggleCommand.java|2515|2527|spirtSceptre|field|com.darthvader.dbsm.commands.ToggleCommand|spirtSceptre
+      @|com\darthvader\dbsm\commands\ToggleCommand.java|2531|2543|spirtSceptre|field|com.darthvader.dbsm.commands.ToggleCommand|spirtSceptre
+      @|com\darthvader\dbsm\commands\ToggleCommand.java|2564|2578|addChatMessage|method|net.minecraft.command.ICommandSender|addChatMessage|(Lnet/minecraft/util/IChatComponent;)V
+      @|com\darthvader\dbsm\commands\ToggleCommand.java|2583|2600|ChatComponentText|class|net.minecraft.util.ChatComponentText
+      @|com\darthvader\dbsm\commands\ToggleCommand.java|2654|2659|Color|class|java.awt.Color
+      @|com\darthvader\dbsm\commands\ToggleCommand.java|2660|2665|GREEN|field|java.awt.Color|GREEN
+      @|com\darthvader\dbsm\commands\ToggleCommand.java|2668|2680|spirtSceptre|field|com.darthvader.dbsm.commands.ToggleCommand|spirtSceptre
+   Method End: processCommand(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+Class End  : com.darthvader.dbsm.commands.ToggleCommand
+endProcessing com\darthvader\dbsm\commands\ToggleCommand.java
+
+processing com\darthvader\dbsm\commands\WarpCommand.java
+@|com\darthvader\dbsm\commands\WarpCommand.java|8|36|com.darthvader.dbsm.commands|package|com.darthvader.dbsm.commands|(file)
+Class Start: com.darthvader.dbsm.commands.WarpCommand
+   Method Start: getCommandName()Ljava/lang/String;
+      @|com\darthvader\dbsm\commands\WarpCommand.java|491|505|getCommandName|method|net.minecraft.command.ICommand|getCommandName|()Ljava/lang/String;
+      @|com\darthvader\dbsm\commands\WarpCommand.java|484|490|String|class|java.lang.String
+   Method End: getCommandName()Ljava/lang/String;
+   Method Start: getCommandUsage(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+      @|com\darthvader\dbsm\commands\WarpCommand.java|570|585|getCommandUsage|method|net.minecraft.command.ICommand|getCommandUsage|(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+      @|com\darthvader\dbsm\commands\WarpCommand.java|563|569|String|class|java.lang.String
+      @|com\darthvader\dbsm\commands\WarpCommand.java|586|600|ICommandSender|class|net.minecraft.command.ICommandSender
+      @|com\darthvader\dbsm\commands\WarpCommand.java|601|605|arg0|param|com.darthvader.dbsm.commands.WarpCommand|getCommandUsage|(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;|arg0|0
+      @|com\darthvader\dbsm\commands\WarpCommand.java|630|644|getCommandName|method|net.minecraft.command.ICommand|getCommandName|()Ljava/lang/String;
+   Method End: getCommandUsage(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+   Method Start: getRequiredPermissionLevel()I
+      @|com\darthvader\dbsm\commands\WarpCommand.java|684|710|getRequiredPermissionLevel|method|net.minecraft.command.CommandBase|getRequiredPermissionLevel|()I
+   Method End: getRequiredPermissionLevel()I
+   Method Start: processCommand(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+      @|com\darthvader\dbsm\commands\WarpCommand.java|770|784|processCommand|method|net.minecraft.command.ICommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+      @|com\darthvader\dbsm\commands\WarpCommand.java|828|844|CommandException|class|net.minecraft.command.CommandException
+      @|com\darthvader\dbsm\commands\WarpCommand.java|785|799|ICommandSender|class|net.minecraft.command.ICommandSender
+      @|com\darthvader\dbsm\commands\WarpCommand.java|800|804|arg0|param|com.darthvader.dbsm.commands.WarpCommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|arg0|0
+      @|com\darthvader\dbsm\commands\WarpCommand.java|806|812|String|class|java.lang.String
+      @|com\darthvader\dbsm\commands\WarpCommand.java|815|819|args|param|com.darthvader.dbsm.commands.WarpCommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+      @|com\darthvader\dbsm\commands\WarpCommand.java|861|873|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+      @|com\darthvader\dbsm\commands\WarpCommand.java|884|896|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+      @|com\darthvader\dbsm\commands\WarpCommand.java|898|902|arg0|param|com.darthvader.dbsm.commands.WarpCommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|arg0|0
+      @|com\darthvader\dbsm\commands\WarpCommand.java|912|921|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\darthvader\dbsm\commands\WarpCommand.java|922|934|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|com\darthvader\dbsm\commands\WarpCommand.java|937|946|thePlayer|field|net.minecraft.client.Minecraft|thePlayer
+      @|com\darthvader\dbsm\commands\WarpCommand.java|947|962|sendChatMessage|method|net.minecraft.client.entity.EntityPlayerSP|sendChatMessage|(Ljava/lang/String;)V
+      @|com\darthvader\dbsm\commands\WarpCommand.java|974|978|args|param|com.darthvader.dbsm.commands.WarpCommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+      @|com\darthvader\dbsm\commands\WarpCommand.java|999|1013|addChatMessage|method|net.minecraft.command.ICommandSender|addChatMessage|(Lnet/minecraft/util/IChatComponent;)V
+      @|com\darthvader\dbsm\commands\WarpCommand.java|1018|1035|ChatComponentText|class|net.minecraft.util.ChatComponentText
+      @|com\darthvader\dbsm\commands\WarpCommand.java|1036|1054|EnumChatFormatting|class|net.minecraft.util.EnumChatFormatting
+      @|com\darthvader\dbsm\commands\WarpCommand.java|1055|1059|BLUE|field|net.minecraft.util.EnumChatFormatting|BLUE
+      @|com\darthvader\dbsm\commands\WarpCommand.java|1072|1090|EnumChatFormatting|class|net.minecraft.util.EnumChatFormatting
+      @|com\darthvader\dbsm\commands\WarpCommand.java|1091|1095|GOLD|field|net.minecraft.util.EnumChatFormatting|GOLD
+      @|com\darthvader\dbsm\commands\WarpCommand.java|1116|1120|args|param|com.darthvader.dbsm.commands.WarpCommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+   Method End: processCommand(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+Class End  : com.darthvader.dbsm.commands.WarpCommand
+endProcessing com\darthvader\dbsm\commands\WarpCommand.java
+
+processing com\darthvader\dbsm\features\AbilityTimer.java
+@|com\darthvader\dbsm\features\AbilityTimer.java|8|36|com.darthvader.dbsm.features|package|com.darthvader.dbsm.features|(file)
+Class Start: com.darthvader.dbsm.features.AbilityTimer
+   Method Start: onChat(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V
+      @|com\darthvader\dbsm\features\AbilityTimer.java|501|507|onChat|method|com.darthvader.dbsm.features.AbilityTimer|onChat|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V
+      @|com\darthvader\dbsm\features\AbilityTimer.java|508|531|ClientChatReceivedEvent|class|net.minecraftforge.client.event.ClientChatReceivedEvent
+      @|com\darthvader\dbsm\features\AbilityTimer.java|532|533|e|param|com.darthvader.dbsm.features.AbilityTimer|onChat|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V|e|0
+      @|com\darthvader\dbsm\features\AbilityTimer.java|545|551|String|class|java.lang.String
+      @|com\darthvader\dbsm\features\AbilityTimer.java|562|573|StringUtils|class|net.minecraft.util.StringUtils
+      @|com\darthvader\dbsm\features\AbilityTimer.java|574|591|stripControlCodes|method|net.minecraft.util.StringUtils|stripControlCodes|(Ljava/lang/String;)Ljava/lang/String;
+      @|com\darthvader\dbsm\features\AbilityTimer.java|592|593|e|param|com.darthvader.dbsm.features.AbilityTimer|onChat|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V|e|0
+      @|com\darthvader\dbsm\features\AbilityTimer.java|594|601|message|field|net.minecraftforge.client.event.ClientChatReceivedEvent|message
+      @|com\darthvader\dbsm\features\AbilityTimer.java|602|620|getUnformattedText|method|net.minecraft.util.IChatComponent|getUnformattedText|()Ljava/lang/String;
+      @|com\darthvader\dbsm\features\AbilityTimer.java|633|642|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\darthvader\dbsm\features\AbilityTimer.java|648|657|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\darthvader\dbsm\features\AbilityTimer.java|658|670|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|com\darthvader\dbsm\features\AbilityTimer.java|687|700|ToggleCommand|class|com.darthvader.dbsm.commands.ToggleCommand
+      @|com\darthvader\dbsm\features\AbilityTimer.java|701|714|AbilityTimers|field|com.darthvader.dbsm.commands.ToggleCommand|AbilityTimers
+      @|com\darthvader\dbsm\features\AbilityTimer.java|726|734|contains|method|java.lang.String|contains|(Ljava/lang/CharSequence;)Z
+      @|com\darthvader\dbsm\features\AbilityTimer.java|775|781|System|class|java.lang.System
+      @|com\darthvader\dbsm\features\AbilityTimer.java|782|785|out|field|java.lang.System|out
+      @|com\darthvader\dbsm\features\AbilityTimer.java|786|793|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|com\darthvader\dbsm\features\AbilityTimer.java|848|861|ToggleCommand|class|com.darthvader.dbsm.commands.ToggleCommand
+      @|com\darthvader\dbsm\features\AbilityTimer.java|862|875|AbilityTimers|field|com.darthvader.dbsm.commands.ToggleCommand|AbilityTimers
+      @|com\darthvader\dbsm\features\AbilityTimer.java|887|895|contains|method|java.lang.String|contains|(Ljava/lang/CharSequence;)Z
+      @|com\darthvader\dbsm\features\AbilityTimer.java|932|938|System|class|java.lang.System
+      @|com\darthvader\dbsm\features\AbilityTimer.java|939|942|out|field|java.lang.System|out
+      @|com\darthvader\dbsm\features\AbilityTimer.java|943|950|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|com\darthvader\dbsm\features\AbilityTimer.java|1005|1018|ToggleCommand|class|com.darthvader.dbsm.commands.ToggleCommand
+      @|com\darthvader\dbsm\features\AbilityTimer.java|1019|1032|AbilityTimers|field|com.darthvader.dbsm.commands.ToggleCommand|AbilityTimers
+      @|com\darthvader\dbsm\features\AbilityTimer.java|1044|1052|contains|method|java.lang.String|contains|(Ljava/lang/CharSequence;)Z
+      @|com\darthvader\dbsm\features\AbilityTimer.java|1089|1095|System|class|java.lang.System
+      @|com\darthvader\dbsm\features\AbilityTimer.java|1096|1099|out|field|java.lang.System|out
+      @|com\darthvader\dbsm\features\AbilityTimer.java|1100|1107|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|com\darthvader\dbsm\features\AbilityTimer.java|1162|1175|ToggleCommand|class|com.darthvader.dbsm.commands.ToggleCommand
+      @|com\darthvader\dbsm\features\AbilityTimer.java|1176|1189|AbilityTimers|field|com.darthvader.dbsm.commands.ToggleCommand|AbilityTimers
+      @|com\darthvader\dbsm\features\AbilityTimer.java|1201|1209|contains|method|java.lang.String|contains|(Ljava/lang/CharSequence;)Z
+      @|com\darthvader\dbsm\features\AbilityTimer.java|1242|1248|System|class|java.lang.System
+      @|com\darthvader\dbsm\features\AbilityTimer.java|1249|1252|out|field|java.lang.System|out
+      @|com\darthvader\dbsm\features\AbilityTimer.java|1253|1260|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|com\darthvader\dbsm\features\AbilityTimer.java|1311|1324|ToggleCommand|class|com.darthvader.dbsm.commands.ToggleCommand
+      @|com\darthvader\dbsm\features\AbilityTimer.java|1325|1338|AbilityTimers|field|com.darthvader.dbsm.commands.ToggleCommand|AbilityTimers
+      @|com\darthvader\dbsm\features\AbilityTimer.java|1350|1358|contains|method|java.lang.String|contains|(Ljava/lang/CharSequence;)Z
+      @|com\darthvader\dbsm\features\AbilityTimer.java|1395|1401|System|class|java.lang.System
+      @|com\darthvader\dbsm\features\AbilityTimer.java|1402|1405|out|field|java.lang.System|out
+      @|com\darthvader\dbsm\features\AbilityTimer.java|1406|1413|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|com\darthvader\dbsm\features\AbilityTimer.java|1468|1481|ToggleCommand|class|com.darthvader.dbsm.commands.ToggleCommand
+      @|com\darthvader\dbsm\features\AbilityTimer.java|1482|1495|AbilityTimers|field|com.darthvader.dbsm.commands.ToggleCommand|AbilityTimers
+      @|com\darthvader\dbsm\features\AbilityTimer.java|1507|1515|contains|method|java.lang.String|contains|(Ljava/lang/CharSequence;)Z
+      @|com\darthvader\dbsm\features\AbilityTimer.java|1550|1556|System|class|java.lang.System
+      @|com\darthvader\dbsm\features\AbilityTimer.java|1557|1560|out|field|java.lang.System|out
+      @|com\darthvader\dbsm\features\AbilityTimer.java|1561|1568|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+   Method End: onChat(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V
+Class End  : com.darthvader.dbsm.features.AbilityTimer
+endProcessing com\darthvader\dbsm\features\AbilityTimer.java
+
+processing com\darthvader\dbsm\features\CopyFail.java
+@|com\darthvader\dbsm\features\CopyFail.java|8|36|com.darthvader.dbsm.features|package|com.darthvader.dbsm.features|(file)
+Class Start: com.darthvader.dbsm.features.CopyFail
+   Method Start: onReceiveDeathMessage(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V
+      @|com\darthvader\dbsm\features\CopyFail.java|656|677|onReceiveDeathMessage|method|com.darthvader.dbsm.features.CopyFail|onReceiveDeathMessage|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V
+      @|com\darthvader\dbsm\features\CopyFail.java|678|701|ClientChatReceivedEvent|class|net.minecraftforge.client.event.ClientChatReceivedEvent
+      @|com\darthvader\dbsm\features\CopyFail.java|702|703|e|param|com.darthvader.dbsm.features.CopyFail|onReceiveDeathMessage|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V|e|0
+      @|com\darthvader\dbsm\features\CopyFail.java|715|721|String|class|java.lang.String
+      @|com\darthvader\dbsm\features\CopyFail.java|732|743|StringUtils|class|net.minecraft.util.StringUtils
+      @|com\darthvader\dbsm\features\CopyFail.java|744|761|stripControlCodes|method|net.minecraft.util.StringUtils|stripControlCodes|(Ljava/lang/String;)Ljava/lang/String;
+      @|com\darthvader\dbsm\features\CopyFail.java|762|763|e|param|com.darthvader.dbsm.features.CopyFail|onReceiveDeathMessage|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V|e|0
+      @|com\darthvader\dbsm\features\CopyFail.java|764|771|message|field|net.minecraftforge.client.event.ClientChatReceivedEvent|message
+      @|com\darthvader\dbsm\features\CopyFail.java|772|790|getUnformattedText|method|net.minecraft.util.IChatComponent|getUnformattedText|()Ljava/lang/String;
+      @|com\darthvader\dbsm\features\CopyFail.java|803|812|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\darthvader\dbsm\features\CopyFail.java|818|827|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\darthvader\dbsm\features\CopyFail.java|828|840|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|com\darthvader\dbsm\features\CopyFail.java|852|864|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+      @|com\darthvader\dbsm\features\CopyFail.java|877|886|thePlayer|field|net.minecraft.client.Minecraft|thePlayer
+      @|com\darthvader\dbsm\features\CopyFail.java|937|945|contains|method|java.lang.String|contains|(Ljava/lang/CharSequence;)Z
+      @|com\darthvader\dbsm\features\CopyFail.java|986|1000|addChatMessage|method|net.minecraft.command.ICommandSender|addChatMessage|(Lnet/minecraft/util/IChatComponent;)V
+      @|com\darthvader\dbsm\features\CopyFail.java|1005|1022|ChatComponentText|class|net.minecraft.util.ChatComponentText
+      @|com\darthvader\dbsm\features\CopyFail.java|1023|1041|EnumChatFormatting|class|net.minecraft.util.EnumChatFormatting
+      @|com\darthvader\dbsm\features\CopyFail.java|1042|1046|BLUE|field|net.minecraft.util.EnumChatFormatting|BLUE
+      @|com\darthvader\dbsm\features\CopyFail.java|1059|1077|EnumChatFormatting|class|net.minecraft.util.EnumChatFormatting
+      @|com\darthvader\dbsm\features\CopyFail.java|1078|1082|GOLD|field|net.minecraft.util.EnumChatFormatting|GOLD
+      @|com\darthvader\dbsm\features\CopyFail.java|1134|1149|StringSelection|class|java.awt.datatransfer.StringSelection
+      @|com\darthvader\dbsm\features\CopyFail.java|1172|1187|StringSelection|class|java.awt.datatransfer.StringSelection
+      @|com\darthvader\dbsm\features\CopyFail.java|1188|1189|e|param|com.darthvader.dbsm.features.CopyFail|onReceiveDeathMessage|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V|e|0
+      @|com\darthvader\dbsm\features\CopyFail.java|1190|1197|message|field|net.minecraftforge.client.event.ClientChatReceivedEvent|message
+      @|com\darthvader\dbsm\features\CopyFail.java|1198|1216|getUnformattedText|method|net.minecraft.util.IChatComponent|getUnformattedText|()Ljava/lang/String;
+      @|com\darthvader\dbsm\features\CopyFail.java|1233|1242|Clipboard|class|java.awt.datatransfer.Clipboard
+      @|com\darthvader\dbsm\features\CopyFail.java|1255|1262|Toolkit|class|java.awt.Toolkit
+      @|com\darthvader\dbsm\features\CopyFail.java|1263|1280|getDefaultToolkit|method|java.awt.Toolkit|getDefaultToolkit|()Ljava/awt/Toolkit;
+      @|com\darthvader\dbsm\features\CopyFail.java|1283|1301|getSystemClipboard|method|java.awt.Toolkit|getSystemClipboard|()Ljava/awt/datatransfer/Clipboard;
+      @|com\darthvader\dbsm\features\CopyFail.java|1327|1338|setContents|method|java.awt.datatransfer.Clipboard|setContents|(Ljava/awt/datatransfer/Transferable;Ljava/awt/datatransfer/ClipboardOwner;)V
+      @|com\darthvader\dbsm\features\CopyFail.java|1398|1406|contains|method|java.lang.String|contains|(Ljava/lang/CharSequence;)Z
+      @|com\darthvader\dbsm\features\CopyFail.java|1446|1460|addChatMessage|method|net.minecraft.command.ICommandSender|addChatMessage|(Lnet/minecraft/util/IChatComponent;)V
+      @|com\darthvader\dbsm\features\CopyFail.java|1465|1482|ChatComponentText|class|net.minecraft.util.ChatComponentText
+      @|com\darthvader\dbsm\features\CopyFail.java|1483|1501|EnumChatFormatting|class|net.minecraft.util.EnumChatFormatting
+      @|com\darthvader\dbsm\features\CopyFail.java|1502|1506|BLUE|field|net.minecraft.util.EnumChatFormatting|BLUE
+      @|com\darthvader\dbsm\features\CopyFail.java|1519|1537|EnumChatFormatting|class|net.minecraft.util.EnumChatFormatting
+      @|com\darthvader\dbsm\features\CopyFail.java|1538|1542|GOLD|field|net.minecraft.util.EnumChatFormatting|GOLD
+      @|com\darthvader\dbsm\features\CopyFail.java|1594|1609|StringSelection|class|java.awt.datatransfer.StringSelection
+      @|com\darthvader\dbsm\features\CopyFail.java|1632|1647|StringSelection|class|java.awt.datatransfer.StringSelection
+      @|com\darthvader\dbsm\features\CopyFail.java|1648|1649|e|param|com.darthvader.dbsm.features.CopyFail|onReceiveDeathMessage|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V|e|0
+      @|com\darthvader\dbsm\features\CopyFail.java|1650|1657|message|field|net.minecraftforge.client.event.ClientChatReceivedEvent|message
+      @|com\darthvader\dbsm\features\CopyFail.java|1658|1676|getUnformattedText|method|net.minecraft.util.IChatComponent|getUnformattedText|()Ljava/lang/String;
+      @|com\darthvader\dbsm\features\CopyFail.java|1693|1702|Clipboard|class|java.awt.datatransfer.Clipboard
+      @|com\darthvader\dbsm\features\CopyFail.java|1715|1722|Toolkit|class|java.awt.Toolkit
+      @|com\darthvader\dbsm\features\CopyFail.java|1723|1740|getDefaultToolkit|method|java.awt.Toolkit|getDefaultToolkit|()Ljava/awt/Toolkit;
+      @|com\darthvader\dbsm\features\CopyFail.java|1743|1761|getSystemClipboard|method|java.awt.Toolkit|getSystemClipboard|()Ljava/awt/datatransfer/Clipboard;
+      @|com\darthvader\dbsm\features\CopyFail.java|1787|1798|setContents|method|java.awt.datatransfer.Clipboard|setContents|(Ljava/awt/datatransfer/Transferable;Ljava/awt/datatransfer/ClipboardOwner;)V
+      @|com\darthvader\dbsm\features\CopyFail.java|1858|1866|contains|method|java.lang.String|contains|(Ljava/lang/CharSequence;)Z
+      @|com\darthvader\dbsm\features\CopyFail.java|1912|1926|addChatMessage|method|net.minecraft.command.ICommandSender|addChatMessage|(Lnet/minecraft/util/IChatComponent;)V
+      @|com\darthvader\dbsm\features\CopyFail.java|1931|1948|ChatComponentText|class|net.minecraft.util.ChatComponentText
+      @|com\darthvader\dbsm\features\CopyFail.java|1949|1967|EnumChatFormatting|class|net.minecraft.util.EnumChatFormatting
+      @|com\darthvader\dbsm\features\CopyFail.java|1968|1972|BLUE|field|net.minecraft.util.EnumChatFormatting|BLUE
+      @|com\darthvader\dbsm\features\CopyFail.java|1985|2003|EnumChatFormatting|class|net.minecraft.util.EnumChatFormatting
+      @|com\darthvader\dbsm\features\CopyFail.java|2004|2008|GOLD|field|net.minecraft.util.EnumChatFormatting|GOLD
+      @|com\darthvader\dbsm\features\CopyFail.java|2060|2075|StringSelection|class|java.awt.datatransfer.StringSelection
+      @|com\darthvader\dbsm\features\CopyFail.java|2098|2113|StringSelection|class|java.awt.datatransfer.StringSelection
+      @|com\darthvader\dbsm\features\CopyFail.java|2114|2115|e|param|com.darthvader.dbsm.features.CopyFail|onReceiveDeathMessage|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V|e|0
+      @|com\darthvader\dbsm\features\CopyFail.java|2116|2123|message|field|net.minecraftforge.client.event.ClientChatReceivedEvent|message
+      @|com\darthvader\dbsm\features\CopyFail.java|2124|2142|getUnformattedText|method|net.minecraft.util.IChatComponent|getUnformattedText|()Ljava/lang/String;
+      @|com\darthvader\dbsm\features\CopyFail.java|2159|2168|Clipboard|class|java.awt.datatransfer.Clipboard
+      @|com\darthvader\dbsm\features\CopyFail.java|2181|2188|Toolkit|class|java.awt.Toolkit
+      @|com\darthvader\dbsm\features\CopyFail.java|2189|2206|getDefaultToolkit|method|java.awt.Toolkit|getDefaultToolkit|()Ljava/awt/Toolkit;
+      @|com\darthvader\dbsm\features\CopyFail.java|2209|2227|getSystemClipboard|method|java.awt.Toolkit|getSystemClipboard|()Ljava/awt/datatransfer/Clipboard;
+      @|com\darthvader\dbsm\features\CopyFail.java|2253|2264|setContents|method|java.awt.datatransfer.Clipboard|setContents|(Ljava/awt/datatransfer/Transferable;Ljava/awt/datatransfer/ClipboardOwner;)V
+      @|com\darthvader\dbsm\features\CopyFail.java|2324|2332|contains|method|java.lang.String|contains|(Ljava/lang/CharSequence;)Z
+      @|com\darthvader\dbsm\features\CopyFail.java|2369|2383|addChatMessage|method|net.minecraft.command.ICommandSender|addChatMessage|(Lnet/minecraft/util/IChatComponent;)V
+      @|com\darthvader\dbsm\features\CopyFail.java|2388|2405|ChatComponentText|class|net.minecraft.util.ChatComponentText
+      @|com\darthvader\dbsm\features\CopyFail.java|2406|2424|EnumChatFormatting|class|net.minecraft.util.EnumChatFormatting
+      @|com\darthvader\dbsm\features\CopyFail.java|2425|2429|BLUE|field|net.minecraft.util.EnumChatFormatting|BLUE
+      @|com\darthvader\dbsm\features\CopyFail.java|2442|2460|EnumChatFormatting|class|net.minecraft.util.EnumChatFormatting
+      @|com\darthvader\dbsm\features\CopyFail.java|2461|2465|GOLD|field|net.minecraft.util.EnumChatFormatting|GOLD
+      @|com\darthvader\dbsm\features\CopyFail.java|2517|2532|StringSelection|class|java.awt.datatransfer.StringSelection
+      @|com\darthvader\dbsm\features\CopyFail.java|2555|2570|StringSelection|class|java.awt.datatransfer.StringSelection
+      @|com\darthvader\dbsm\features\CopyFail.java|2571|2572|e|param|com.darthvader.dbsm.features.CopyFail|onReceiveDeathMessage|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V|e|0
+      @|com\darthvader\dbsm\features\CopyFail.java|2573|2580|message|field|net.minecraftforge.client.event.ClientChatReceivedEvent|message
+      @|com\darthvader\dbsm\features\CopyFail.java|2581|2599|getUnformattedText|method|net.minecraft.util.IChatComponent|getUnformattedText|()Ljava/lang/String;
+      @|com\darthvader\dbsm\features\CopyFail.java|2616|2625|Clipboard|class|java.awt.datatransfer.Clipboard
+      @|com\darthvader\dbsm\features\CopyFail.java|2638|2645|Toolkit|class|java.awt.Toolkit
+      @|com\darthvader\dbsm\features\CopyFail.java|2646|2663|getDefaultToolkit|method|java.awt.Toolkit|getDefaultToolkit|()Ljava/awt/Toolkit;
+      @|com\darthvader\dbsm\features\CopyFail.java|2666|2684|getSystemClipboard|method|java.awt.Toolkit|getSystemClipboard|()Ljava/awt/datatransfer/Clipboard;
+      @|com\darthvader\dbsm\features\CopyFail.java|2710|2721|setContents|method|java.awt.datatransfer.Clipboard|setContents|(Ljava/awt/datatransfer/Transferable;Ljava/awt/datatransfer/ClipboardOwner;)V
+      @|com\darthvader\dbsm\features\CopyFail.java|2781|2789|contains|method|java.lang.String|contains|(Ljava/lang/CharSequence;)Z
+      @|com\darthvader\dbsm\features\CopyFail.java|2823|2837|addChatMessage|method|net.minecraft.command.ICommandSender|addChatMessage|(Lnet/minecraft/util/IChatComponent;)V
+      @|com\darthvader\dbsm\features\CopyFail.java|2842|2859|ChatComponentText|class|net.minecraft.util.ChatComponentText
+      @|com\darthvader\dbsm\features\CopyFail.java|2860|2878|EnumChatFormatting|class|net.minecraft.util.EnumChatFormatting
+      @|com\darthvader\dbsm\features\CopyFail.java|2879|2883|BLUE|field|net.minecraft.util.EnumChatFormatting|BLUE
+      @|com\darthvader\dbsm\features\CopyFail.java|2896|2914|EnumChatFormatting|class|net.minecraft.util.EnumChatFormatting
+      @|com\darthvader\dbsm\features\CopyFail.java|2915|2919|GOLD|field|net.minecraft.util.EnumChatFormatting|GOLD
+      @|com\darthvader\dbsm\features\CopyFail.java|2971|2986|StringSelection|class|java.awt.datatransfer.StringSelection
+      @|com\darthvader\dbsm\features\CopyFail.java|3009|3024|StringSelection|class|java.awt.datatransfer.StringSelection
+      @|com\darthvader\dbsm\features\CopyFail.java|3025|3026|e|param|com.darthvader.dbsm.features.CopyFail|onReceiveDeathMessage|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V|e|0
+      @|com\darthvader\dbsm\features\CopyFail.java|3027|3034|message|field|net.minecraftforge.client.event.ClientChatReceivedEvent|message
+      @|com\darthvader\dbsm\features\CopyFail.java|3035|3053|getUnformattedText|method|net.minecraft.util.IChatComponent|getUnformattedText|()Ljava/lang/String;
+      @|com\darthvader\dbsm\features\CopyFail.java|3070|3079|Clipboard|class|java.awt.datatransfer.Clipboard
+      @|com\darthvader\dbsm\features\CopyFail.java|3092|3099|Toolkit|class|java.awt.Toolkit
+      @|com\darthvader\dbsm\features\CopyFail.java|3100|3117|getDefaultToolkit|method|java.awt.Toolkit|getDefaultToolkit|()Ljava/awt/Toolkit;
+      @|com\darthvader\dbsm\features\CopyFail.java|3120|3138|getSystemClipboard|method|java.awt.Toolkit|getSystemClipboard|()Ljava/awt/datatransfer/Clipboard;
+      @|com\darthvader\dbsm\features\CopyFail.java|3164|3175|setContents|method|java.awt.datatransfer.Clipboard|setContents|(Ljava/awt/datatransfer/Transferable;Ljava/awt/datatransfer/ClipboardOwner;)V
+      @|com\darthvader\dbsm\features\CopyFail.java|3235|3243|contains|method|java.lang.String|contains|(Ljava/lang/CharSequence;)Z
+      @|com\darthvader\dbsm\features\CopyFail.java|3277|3291|addChatMessage|method|net.minecraft.command.ICommandSender|addChatMessage|(Lnet/minecraft/util/IChatComponent;)V
+      @|com\darthvader\dbsm\features\CopyFail.java|3296|3313|ChatComponentText|class|net.minecraft.util.ChatComponentText
+      @|com\darthvader\dbsm\features\CopyFail.java|3314|3332|EnumChatFormatting|class|net.minecraft.util.EnumChatFormatting
+      @|com\darthvader\dbsm\features\CopyFail.java|3333|3337|BLUE|field|net.minecraft.util.EnumChatFormatting|BLUE
+      @|com\darthvader\dbsm\features\CopyFail.java|3350|3368|EnumChatFormatting|class|net.minecraft.util.EnumChatFormatting
+      @|com\darthvader\dbsm\features\CopyFail.java|3369|3373|GOLD|field|net.minecraft.util.EnumChatFormatting|GOLD
+      @|com\darthvader\dbsm\features\CopyFail.java|3425|3440|StringSelection|class|java.awt.datatransfer.StringSelection
+      @|com\darthvader\dbsm\features\CopyFail.java|3463|3478|StringSelection|class|java.awt.datatransfer.StringSelection
+      @|com\darthvader\dbsm\features\CopyFail.java|3479|3480|e|param|com.darthvader.dbsm.features.CopyFail|onReceiveDeathMessage|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V|e|0
+      @|com\darthvader\dbsm\features\CopyFail.java|3481|3488|message|field|net.minecraftforge.client.event.ClientChatReceivedEvent|message
+      @|com\darthvader\dbsm\features\CopyFail.java|3489|3507|getUnformattedText|method|net.minecraft.util.IChatComponent|getUnformattedText|()Ljava/lang/String;
+      @|com\darthvader\dbsm\features\CopyFail.java|3524|3533|Clipboard|class|java.awt.datatransfer.Clipboard
+      @|com\darthvader\dbsm\features\CopyFail.java|3546|3553|Toolkit|class|java.awt.Toolkit
+      @|com\darthvader\dbsm\features\CopyFail.java|3554|3571|getDefaultToolkit|method|java.awt.Toolkit|getDefaultToolkit|()Ljava/awt/Toolkit;
+      @|com\darthvader\dbsm\features\CopyFail.java|3574|3592|getSystemClipboard|method|java.awt.Toolkit|getSystemClipboard|()Ljava/awt/datatransfer/Clipboard;
+      @|com\darthvader\dbsm\features\CopyFail.java|3618|3629|setContents|method|java.awt.datatransfer.Clipboard|setContents|(Ljava/awt/datatransfer/Transferable;Ljava/awt/datatransfer/ClipboardOwner;)V
+      @|com\darthvader\dbsm\features\CopyFail.java|3689|3697|contains|method|java.lang.String|contains|(Ljava/lang/CharSequence;)Z
+      @|com\darthvader\dbsm\features\CopyFail.java|3739|3753|addChatMessage|method|net.minecraft.command.ICommandSender|addChatMessage|(Lnet/minecraft/util/IChatComponent;)V
+      @|com\darthvader\dbsm\features\CopyFail.java|3758|3775|ChatComponentText|class|net.minecraft.util.ChatComponentText
+      @|com\darthvader\dbsm\features\CopyFail.java|3776|3794|EnumChatFormatting|class|net.minecraft.util.EnumChatFormatting
+      @|com\darthvader\dbsm\features\CopyFail.java|3795|3799|BLUE|field|net.minecraft.util.EnumChatFormatting|BLUE
+      @|com\darthvader\dbsm\features\CopyFail.java|3812|3830|EnumChatFormatting|class|net.minecraft.util.EnumChatFormatting
+      @|com\darthvader\dbsm\features\CopyFail.java|3831|3835|GOLD|field|net.minecraft.util.EnumChatFormatting|GOLD
+      @|com\darthvader\dbsm\features\CopyFail.java|3887|3902|StringSelection|class|java.awt.datatransfer.StringSelection
+      @|com\darthvader\dbsm\features\CopyFail.java|3925|3940|StringSelection|class|java.awt.datatransfer.StringSelection
+      @|com\darthvader\dbsm\features\CopyFail.java|3941|3942|e|param|com.darthvader.dbsm.features.CopyFail|onReceiveDeathMessage|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V|e|0
+      @|com\darthvader\dbsm\features\CopyFail.java|3943|3950|message|field|net.minecraftforge.client.event.ClientChatReceivedEvent|message
+      @|com\darthvader\dbsm\features\CopyFail.java|3951|3969|getUnformattedText|method|net.minecraft.util.IChatComponent|getUnformattedText|()Ljava/lang/String;
+      @|com\darthvader\dbsm\features\CopyFail.java|3986|3995|Clipboard|class|java.awt.datatransfer.Clipboard
+      @|com\darthvader\dbsm\features\CopyFail.java|4008|4015|Toolkit|class|java.awt.Toolkit
+      @|com\darthvader\dbsm\features\CopyFail.java|4016|4033|getDefaultToolkit|method|java.awt.Toolkit|getDefaultToolkit|()Ljava/awt/Toolkit;
+      @|com\darthvader\dbsm\features\CopyFail.java|4036|4054|getSystemClipboard|method|java.awt.Toolkit|getSystemClipboard|()Ljava/awt/datatransfer/Clipboard;
+      @|com\darthvader\dbsm\features\CopyFail.java|4080|4091|setContents|method|java.awt.datatransfer.Clipboard|setContents|(Ljava/awt/datatransfer/Transferable;Ljava/awt/datatransfer/ClipboardOwner;)V
+      @|com\darthvader\dbsm\features\CopyFail.java|4151|4159|contains|method|java.lang.String|contains|(Ljava/lang/CharSequence;)Z
+      @|com\darthvader\dbsm\features\CopyFail.java|4194|4208|addChatMessage|method|net.minecraft.command.ICommandSender|addChatMessage|(Lnet/minecraft/util/IChatComponent;)V
+      @|com\darthvader\dbsm\features\CopyFail.java|4213|4230|ChatComponentText|class|net.minecraft.util.ChatComponentText
+      @|com\darthvader\dbsm\features\CopyFail.java|4231|4249|EnumChatFormatting|class|net.minecraft.util.EnumChatFormatting
+      @|com\darthvader\dbsm\features\CopyFail.java|4250|4254|BLUE|field|net.minecraft.util.EnumChatFormatting|BLUE
+      @|com\darthvader\dbsm\features\CopyFail.java|4267|4285|EnumChatFormatting|class|net.minecraft.util.EnumChatFormatting
+      @|com\darthvader\dbsm\features\CopyFail.java|4286|4290|GOLD|field|net.minecraft.util.EnumChatFormatting|GOLD
+      @|com\darthvader\dbsm\features\CopyFail.java|4342|4357|StringSelection|class|java.awt.datatransfer.StringSelection
+      @|com\darthvader\dbsm\features\CopyFail.java|4380|4395|StringSelection|class|java.awt.datatransfer.StringSelection
+      @|com\darthvader\dbsm\features\CopyFail.java|4396|4397|e|param|com.darthvader.dbsm.features.CopyFail|onReceiveDeathMessage|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V|e|0
+      @|com\darthvader\dbsm\features\CopyFail.java|4398|4405|message|field|net.minecraftforge.client.event.ClientChatReceivedEvent|message
+      @|com\darthvader\dbsm\features\CopyFail.java|4406|4424|getUnformattedText|method|net.minecraft.util.IChatComponent|getUnformattedText|()Ljava/lang/String;
+      @|com\darthvader\dbsm\features\CopyFail.java|4441|4450|Clipboard|class|java.awt.datatransfer.Clipboard
+      @|com\darthvader\dbsm\features\CopyFail.java|4463|4470|Toolkit|class|java.awt.Toolkit
+      @|com\darthvader\dbsm\features\CopyFail.java|4471|4488|getDefaultToolkit|method|java.awt.Toolkit|getDefaultToolkit|()Ljava/awt/Toolkit;
+      @|com\darthvader\dbsm\features\CopyFail.java|4491|4509|getSystemClipboard|method|java.awt.Toolkit|getSystemClipboard|()Ljava/awt/datatransfer/Clipboard;
+      @|com\darthvader\dbsm\features\CopyFail.java|4535|4546|setContents|method|java.awt.datatransfer.Clipboard|setContents|(Ljava/awt/datatransfer/Transferable;Ljava/awt/datatransfer/ClipboardOwner;)V
+      @|com\darthvader\dbsm\features\CopyFail.java|4606|4614|contains|method|java.lang.String|contains|(Ljava/lang/CharSequence;)Z
+      @|com\darthvader\dbsm\features\CopyFail.java|4655|4669|addChatMessage|method|net.minecraft.command.ICommandSender|addChatMessage|(Lnet/minecraft/util/IChatComponent;)V
+      @|com\darthvader\dbsm\features\CopyFail.java|4674|4691|ChatComponentText|class|net.minecraft.util.ChatComponentText
+      @|com\darthvader\dbsm\features\CopyFail.java|4692|4710|EnumChatFormatting|class|net.minecraft.util.EnumChatFormatting
+      @|com\darthvader\dbsm\features\CopyFail.java|4711|4715|BLUE|field|net.minecraft.util.EnumChatFormatting|BLUE
+      @|com\darthvader\dbsm\features\CopyFail.java|4728|4746|EnumChatFormatting|class|net.minecraft.util.EnumChatFormatting
+      @|com\darthvader\dbsm\features\CopyFail.java|4747|4751|GOLD|field|net.minecraft.util.EnumChatFormatting|GOLD
+      @|com\darthvader\dbsm\features\CopyFail.java|4803|4818|StringSelection|class|java.awt.datatransfer.StringSelection
+      @|com\darthvader\dbsm\features\CopyFail.java|4841|4856|StringSelection|class|java.awt.datatransfer.StringSelection
+      @|com\darthvader\dbsm\features\CopyFail.java|4857|4858|e|param|com.darthvader.dbsm.features.CopyFail|onReceiveDeathMessage|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V|e|0
+      @|com\darthvader\dbsm\features\CopyFail.java|4859|4866|message|field|net.minecraftforge.client.event.ClientChatReceivedEvent|message
+      @|com\darthvader\dbsm\features\CopyFail.java|4867|4885|getUnformattedText|method|net.minecraft.util.IChatComponent|getUnformattedText|()Ljava/lang/String;
+      @|com\darthvader\dbsm\features\CopyFail.java|4902|4911|Clipboard|class|java.awt.datatransfer.Clipboard
+      @|com\darthvader\dbsm\features\CopyFail.java|4924|4931|Toolkit|class|java.awt.Toolkit
+      @|com\darthvader\dbsm\features\CopyFail.java|4932|4949|getDefaultToolkit|method|java.awt.Toolkit|getDefaultToolkit|()Ljava/awt/Toolkit;
+      @|com\darthvader\dbsm\features\CopyFail.java|4952|4970|getSystemClipboard|method|java.awt.Toolkit|getSystemClipboard|()Ljava/awt/datatransfer/Clipboard;
+      @|com\darthvader\dbsm\features\CopyFail.java|4996|5007|setContents|method|java.awt.datatransfer.Clipboard|setContents|(Ljava/awt/datatransfer/Transferable;Ljava/awt/datatransfer/ClipboardOwner;)V
+   Method End: onReceiveDeathMessage(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V
+Class End  : com.darthvader.dbsm.features.CopyFail
+endProcessing com\darthvader\dbsm\features\CopyFail.java
+
+processing com\darthvader\dbsm\features\HideMessages.java
+@|com\darthvader\dbsm\features\HideMessages.java|8|36|com.darthvader.dbsm.features|package|com.darthvader.dbsm.features|(file)
+Class Start: com.darthvader.dbsm.features.HideMessages
+   Method Start: onChat(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V
+      @|com\darthvader\dbsm\features\HideMessages.java|365|371|onChat|method|com.darthvader.dbsm.features.HideMessages|onChat|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V
+      @|com\darthvader\dbsm\features\HideMessages.java|372|395|ClientChatReceivedEvent|class|net.minecraftforge.client.event.ClientChatReceivedEvent
+      @|com\darthvader\dbsm\features\HideMessages.java|396|397|e|param|com.darthvader.dbsm.features.HideMessages|onChat|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V|e|0
+      @|com\darthvader\dbsm\features\HideMessages.java|409|415|String|class|java.lang.String
+      @|com\darthvader\dbsm\features\HideMessages.java|426|427|e|param|com.darthvader.dbsm.features.HideMessages|onChat|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V|e|0
+      @|com\darthvader\dbsm\features\HideMessages.java|428|435|message|field|net.minecraftforge.client.event.ClientChatReceivedEvent|message
+      @|com\darthvader\dbsm\features\HideMessages.java|436|454|getUnformattedText|method|net.minecraft.util.IChatComponent|getUnformattedText|()Ljava/lang/String;
+      @|com\darthvader\dbsm\features\HideMessages.java|471|476|utils|class|com.darthvader.dbsm.utils.utils
+      @|com\darthvader\dbsm\features\HideMessages.java|477|487|inSkyblock|field|com.darthvader.dbsm.utils.utils|inSkyblock
+      @|com\darthvader\dbsm\features\HideMessages.java|553|561|contains|method|java.lang.String|contains|(Ljava/lang/CharSequence;)Z
+      @|com\darthvader\dbsm\features\HideMessages.java|605|606|e|param|com.darthvader.dbsm.features.HideMessages|onChat|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V|e|0
+      @|com\darthvader\dbsm\features\HideMessages.java|607|618|setCanceled|method|net.minecraftforge.fml.common.eventhandler.Event|setCanceled|(Z)V
+      @|com\darthvader\dbsm\features\HideMessages.java|708|716|contains|method|java.lang.String|contains|(Ljava/lang/CharSequence;)Z
+      @|com\darthvader\dbsm\features\HideMessages.java|757|758|e|param|com.darthvader.dbsm.features.HideMessages|onChat|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V|e|0
+      @|com\darthvader\dbsm\features\HideMessages.java|759|770|setCanceled|method|net.minecraftforge.fml.common.eventhandler.Event|setCanceled|(Z)V
+      @|com\darthvader\dbsm\features\HideMessages.java|856|864|contains|method|java.lang.String|contains|(Ljava/lang/CharSequence;)Z
+      @|com\darthvader\dbsm\features\HideMessages.java|889|897|contains|method|java.lang.String|contains|(Ljava/lang/CharSequence;)Z
+      @|com\darthvader\dbsm\features\HideMessages.java|924|932|contains|method|java.lang.String|contains|(Ljava/lang/CharSequence;)Z
+      @|com\darthvader\dbsm\features\HideMessages.java|969|970|e|param|com.darthvader.dbsm.features.HideMessages|onChat|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V|e|0
+      @|com\darthvader\dbsm\features\HideMessages.java|971|982|setCanceled|method|net.minecraftforge.fml.common.eventhandler.Event|setCanceled|(Z)V
+      @|com\darthvader\dbsm\features\HideMessages.java|1069|1077|contains|method|java.lang.String|contains|(Ljava/lang/CharSequence;)Z
+      @|com\darthvader\dbsm\features\HideMessages.java|1129|1130|e|param|com.darthvader.dbsm.features.HideMessages|onChat|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V|e|0
+      @|com\darthvader\dbsm\features\HideMessages.java|1131|1142|setCanceled|method|net.minecraftforge.fml.common.eventhandler.Event|setCanceled|(Z)V
+      @|com\darthvader\dbsm\features\HideMessages.java|1232|1240|contains|method|java.lang.String|contains|(Ljava/lang/CharSequence;)Z
+      @|com\darthvader\dbsm\features\HideMessages.java|1299|1300|e|param|com.darthvader.dbsm.features.HideMessages|onChat|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V|e|0
+      @|com\darthvader\dbsm\features\HideMessages.java|1301|1312|setCanceled|method|net.minecraftforge.fml.common.eventhandler.Event|setCanceled|(Z)V
+      @|com\darthvader\dbsm\features\HideMessages.java|1395|1403|contains|method|java.lang.String|contains|(Ljava/lang/CharSequence;)Z
+      @|com\darthvader\dbsm\features\HideMessages.java|1438|1446|contains|method|java.lang.String|contains|(Ljava/lang/CharSequence;)Z
+      @|com\darthvader\dbsm\features\HideMessages.java|1497|1498|e|param|com.darthvader.dbsm.features.HideMessages|onChat|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V|e|0
+      @|com\darthvader\dbsm\features\HideMessages.java|1499|1510|setCanceled|method|net.minecraftforge.fml.common.eventhandler.Event|setCanceled|(Z)V
+      @|com\darthvader\dbsm\features\HideMessages.java|1599|1607|contains|method|java.lang.String|contains|(Ljava/lang/CharSequence;)Z
+      @|com\darthvader\dbsm\features\HideMessages.java|1624|1632|contains|method|java.lang.String|contains|(Ljava/lang/CharSequence;)Z
+      @|com\darthvader\dbsm\features\HideMessages.java|1661|1669|contains|method|java.lang.String|contains|(Ljava/lang/CharSequence;)Z
+      @|com\darthvader\dbsm\features\HideMessages.java|1721|1722|e|param|com.darthvader.dbsm.features.HideMessages|onChat|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V|e|0
+      @|com\darthvader\dbsm\features\HideMessages.java|1723|1734|setCanceled|method|net.minecraftforge.fml.common.eventhandler.Event|setCanceled|(Z)V
+      @|com\darthvader\dbsm\features\HideMessages.java|1825|1833|contains|method|java.lang.String|contains|(Ljava/lang/CharSequence;)Z
+      @|com\darthvader\dbsm\features\HideMessages.java|1879|1880|e|param|com.darthvader.dbsm.features.HideMessages|onChat|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V|e|0
+      @|com\darthvader\dbsm\features\HideMessages.java|1881|1892|setCanceled|method|net.minecraftforge.fml.common.eventhandler.Event|setCanceled|(Z)V
+      @|com\darthvader\dbsm\features\HideMessages.java|1990|1998|contains|method|java.lang.String|contains|(Ljava/lang/CharSequence;)Z
+      @|com\darthvader\dbsm\features\HideMessages.java|2054|2055|e|param|com.darthvader.dbsm.features.HideMessages|onChat|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V|e|0
+      @|com\darthvader\dbsm\features\HideMessages.java|2056|2067|setCanceled|method|net.minecraftforge.fml.common.eventhandler.Event|setCanceled|(Z)V
+      @|com\darthvader\dbsm\features\HideMessages.java|2164|2172|contains|method|java.lang.String|contains|(Ljava/lang/CharSequence;)Z
+      @|com\darthvader\dbsm\features\HideMessages.java|2228|2229|e|param|com.darthvader.dbsm.features.HideMessages|onChat|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V|e|0
+      @|com\darthvader\dbsm\features\HideMessages.java|2230|2241|setCanceled|method|net.minecraftforge.fml.common.eventhandler.Event|setCanceled|(Z)V
+      @|com\darthvader\dbsm\features\HideMessages.java|2333|2341|contains|method|java.lang.String|contains|(Ljava/lang/CharSequence;)Z
+      @|com\darthvader\dbsm\features\HideMessages.java|2393|2394|e|param|com.darthvader.dbsm.features.HideMessages|onChat|(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V|e|0
+      @|com\darthvader\dbsm\features\HideMessages.java|2395|2406|setCanceled|method|net.minecraftforge.fml.common.eventhandler.Event|setCanceled|(Z)V
+   Method End: onChat(Lnet/minecraftforge/client/event/ClientChatReceivedEvent;)V
+Class End  : com.darthvader.dbsm.features.HideMessages
+endProcessing com\darthvader\dbsm\features\HideMessages.java
+
+processing com\darthvader\dbsm\proxy\ClientProxy.java
+@|com\darthvader\dbsm\proxy\ClientProxy.java|8|33|com.darthvader.dbsm.proxy|package|com.darthvader.dbsm.proxy|(file)
+Class Start: com.darthvader.dbsm.proxy.ClientProxy
+Class End  : com.darthvader.dbsm.proxy.ClientProxy
+endProcessing com\darthvader\dbsm\proxy\ClientProxy.java
+
+processing com\darthvader\dbsm\proxy\CommonProxy.java
+@|com\darthvader\dbsm\proxy\CommonProxy.java|8|33|com.darthvader.dbsm.proxy|package|com.darthvader.dbsm.proxy|(file)
+Class Start: com.darthvader.dbsm.proxy.CommonProxy
+Class End  : com.darthvader.dbsm.proxy.CommonProxy
+endProcessing com\darthvader\dbsm\proxy\CommonProxy.java
+
+processing com\darthvader\dbsm\utils\Reference.java
+@|com\darthvader\dbsm\utils\Reference.java|8|33|com.darthvader.dbsm.utils|package|com.darthvader.dbsm.utils|(file)
+Class Start: com.darthvader.dbsm.utils.Reference
+   @|com\darthvader\dbsm\utils\Reference.java|85|91|String|class|java.lang.String
+   @|com\darthvader\dbsm\utils\Reference.java|92|98|MOD_ID|field|com.darthvader.dbsm.utils.Reference|MOD_ID|
+   @|com\darthvader\dbsm\utils\Reference.java|133|139|String|class|java.lang.String
+   @|com\darthvader\dbsm\utils\Reference.java|140|144|NAME|field|com.darthvader.dbsm.utils.Reference|NAME|
+   @|com\darthvader\dbsm\utils\Reference.java|202|208|String|class|java.lang.String
+   @|com\darthvader\dbsm\utils\Reference.java|209|216|VERSION|field|com.darthvader.dbsm.utils.Reference|VERSION|
+   @|com\darthvader\dbsm\utils\Reference.java|252|258|String|class|java.lang.String
+   @|com\darthvader\dbsm\utils\Reference.java|259|276|ACCEPTED_VERSIONS|field|com.darthvader.dbsm.utils.Reference|ACCEPTED_VERSIONS|
+   @|com\darthvader\dbsm\utils\Reference.java|314|320|String|class|java.lang.String
+   @|com\darthvader\dbsm\utils\Reference.java|321|339|CLIENT_PROXY_CLASS|field|com.darthvader.dbsm.utils.Reference|CLIENT_PROXY_CLASS|
+   @|com\darthvader\dbsm\utils\Reference.java|407|413|String|class|java.lang.String
+   @|com\darthvader\dbsm\utils\Reference.java|414|432|COMMON_PROXY_CLASS|field|com.darthvader.dbsm.utils.Reference|COMMON_PROXY_CLASS|
+Class End  : com.darthvader.dbsm.utils.Reference
+endProcessing com\darthvader\dbsm\utils\Reference.java
+
+processing com\darthvader\dbsm\utils\utils.java
+@|com\darthvader\dbsm\utils\utils.java|8|33|com.darthvader.dbsm.utils|package|com.darthvader.dbsm.utils|(file)
+Class Start: com.darthvader.dbsm.utils.utils
+   @|com\darthvader\dbsm\utils\utils.java|171|181|inSkyblock|field|com.darthvader.dbsm.utils.utils|inSkyblock|
+   Method Start: isOnHypixel()Z
+      @|com\darthvader\dbsm\utils\utils.java|217|228|isOnHypixel|method|com.darthvader.dbsm.utils.utils|isOnHypixel|()Z
+      @|com\darthvader\dbsm\utils\utils.java|241|250|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\darthvader\dbsm\utils\utils.java|256|265|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\darthvader\dbsm\utils\utils.java|266|278|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|com\darthvader\dbsm\utils\utils.java|311|319|theWorld|field|net.minecraft.client.Minecraft|theWorld
+      @|com\darthvader\dbsm\utils\utils.java|335|349|isSingleplayer|method|net.minecraft.client.Minecraft|isSingleplayer|()Z
+      @|com\darthvader\dbsm\utils\utils.java|377|397|getCurrentServerData|method|net.minecraft.client.Minecraft|getCurrentServerData|()Lnet/minecraft/client/multiplayer/ServerData;
+      @|com\darthvader\dbsm\utils\utils.java|400|408|serverIP|field|net.minecraft.client.multiplayer.ServerData|serverIP
+      @|com\darthvader\dbsm\utils\utils.java|409|420|toLowerCase|method|java.lang.String|toLowerCase|()Ljava/lang/String;
+      @|com\darthvader\dbsm\utils\utils.java|423|431|contains|method|java.lang.String|contains|(Ljava/lang/CharSequence;)Z
+   Method End: isOnHypixel()Z
+   Method Start: isOnSkyblock()V
+      @|com\darthvader\dbsm\utils\utils.java|506|518|isOnSkyblock|method|com.darthvader.dbsm.utils.utils|isOnSkyblock|()V
+      @|com\darthvader\dbsm\utils\utils.java|531|540|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\darthvader\dbsm\utils\utils.java|546|555|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\darthvader\dbsm\utils\utils.java|556|568|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|com\darthvader\dbsm\utils\utils.java|601|609|theWorld|field|net.minecraft.client.Minecraft|theWorld
+      @|com\darthvader\dbsm\utils\utils.java|625|639|isSingleplayer|method|net.minecraft.client.Minecraft|isSingleplayer|()Z
+      @|com\darthvader\dbsm\utils\utils.java|657|671|ScoreObjective|class|net.minecraft.scoreboard.ScoreObjective
+      @|com\darthvader\dbsm\utils\utils.java|691|699|theWorld|field|net.minecraft.client.Minecraft|theWorld
+      @|com\darthvader\dbsm\utils\utils.java|700|713|getScoreboard|method|net.minecraft.world.World|getScoreboard|()Lnet/minecraft/scoreboard/Scoreboard;
+      @|com\darthvader\dbsm\utils\utils.java|716|741|getObjectiveInDisplaySlot|method|net.minecraft.scoreboard.Scoreboard|getObjectiveInDisplaySlot|(I)Lnet/minecraft/scoreboard/ScoreObjective;
+      @|com\darthvader\dbsm\utils\utils.java|821|835|getDisplayName|method|net.minecraft.scoreboard.ScoreObjective|getDisplayName|()Ljava/lang/String;
+      @|com\darthvader\dbsm\utils\utils.java|838|846|contains|method|java.lang.String|contains|(Ljava/lang/CharSequence;)Z
+      @|com\darthvader\dbsm\utils\utils.java|882|892|inSkyblock|field|com.darthvader.dbsm.utils.utils|inSkyblock
+      @|com\darthvader\dbsm\utils\utils.java|979|989|inSkyblock|field|com.darthvader.dbsm.utils.utils|inSkyblock
+   Method End: isOnSkyblock()V
+Class End  : com.darthvader.dbsm.utils.utils
+endProcessing com\darthvader\dbsm\utils\utils.java
+
