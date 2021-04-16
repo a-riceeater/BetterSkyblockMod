@@ -14,3 +14,10 @@
   <li>Ability Timers In Dungeons (In the making)</li>
   <li>And more comming soon! - Please note the mod is still very much in the making and may have a few bugs</li>
 </ul>
+
+<h3>Wow, that seems neat! How can I download it?</h3>
+<ol>
+  <h4>Either:</h4>
+  <li>Join the Discord and go to the #Releases channel: https://discord.gg/wpfnknzjpj</li>
+  <li>Or, go to the Releases section on Github</li>
+</ol>
