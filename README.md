@@ -5,7 +5,7 @@
 <h3>About the mod</h3?
 <p>A QoL mod to help make your SkyBlock experience better</p>
 
-<h3>Hmm.. Seems like a nice mod.. What are the features though</h3>
+<h3>Hmm.. Seems like a nice mod.. What are the features though?</h3>
 <ul>
   <li>Copy Death Messages in Dungeons</li>
   <li>Shorter warp command (/wr)</li>
